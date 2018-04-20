@@ -1,0 +1,40 @@
+@charset "utf-8";
+.movie-item {
+	width: 200px;	
+	}
+.movie-item a:hover {
+	text-decoration: none;
+	}
+.poster-default {
+	width: 200px; 
+	height: 242px;
+	}
+.movie-overlay {
+	height: 50px;
+	width: 190px;
+	margin-top: -60px;
+	background-color: #000;	
+	filter:alpha(Opacity=80);-moz-opacity:0.7;opacity: 0.7;
+	position: static;
+	}
+.movie-info {
+	font-size: 18px;
+	padding-top: 20px;
+	position: relative;
+	text-decoration: none;
+	}
+.movie-score {
+	float: right;
+	margin-right: 15px;
+	position: relative;
+    color:#C60;
+	}
+.movie-title {
+	color: #FFF;
+	position: relative;	
+	}
+.movie-sale {
+	margin-left: 50px;	
+	margin-top: 15px;
+	}
+.active

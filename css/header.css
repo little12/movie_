@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+.navbar.navbar-default.navbar-fixed-top .container-fluid .navbar-form.navbar-left .btn.btn-default {
+	background-image: url(../img/index/submit1_u18_.png);
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 37px;	
+}
+.textcolor_red {
+	color: #C33;
+}
+.textcolor_orange {
+	color:#CC3;
+}
+.aside {
+	padding-top: 30px;
+	padding-right: 40px;
+	width: 350px;
+	float: right;
+}
+.list-group-item {
+	text-decoration: none;
+	border: none;
+}
+.panel-heading {
+	background-image: url(../img/index/header_u0.png);
+	}
+.ranking-top-left {
+	width: 120px;
+}
+.ranking-top-num {
+	display: block;
+	float: right;
+	font-size: 30px;
+	color:#C00;
+}
+.ranking-top-right-main{
+	width: 150px;
+	padding-left: 30px;
+	margin-top: -60px;
+	float: right;
+}
+.ranking-top-movie-name {
+	font-size: 18px;
+	color: #333;
+}
+.ranking-index {
+	font-size: 18px; 	
+	color:#666;
+}
+.ranking-movie-name {
+	font-size: 16px;
+	color: #333;
+	padding-left: 5px;	
+}
+.ranking-num-info {
+	display: block;
+	float: right;
+	color: #C00;	
+	padding-top: 2px;
+}
+.panel-more {
+	display:block;
+	padding-top: 10px; 
+	float: right;
+	}
+.movie-grid {
+	width: 900px;
+	margin-top:30px;	
+	}
+`
