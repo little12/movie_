@@ -7,41 +7,45 @@
 <link rel="stylesheet" href="../css/movie_list.css">
 <script src="../bootstrap-3.3.7-dist/js/jquery-3.2.1.min.js"></script>
 <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-<title>INDEX</title>
+<title>圆圆电影</title>
 </head>
 
 <body>
-    <div class="container">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-		<div class="container-fluid" style="height: 70px">
-		<div class="navbar-header col-lg-3">
-            <ul class="navbar-brand nav navbar-nav">
-                <li><img src="../img/index/u3.png" alt="logo" width="51" height="50" style="vertical-align:central"><li>
-				<li><img id="logo" src="../img/index/u5.png" alt="logo" style="vertical-align:central"></li>
-            </ul>
-        </div>
-		<div class="col-lg-5" style="font-size: 20px; margin-top: 10px">
-            <ul class="nav navbar-nav">
-            	<li class="active"><a href="#">首页</a></li>
-            	<li><a href="movie">电影</a></li>
-            	<li><a href="cinema">影院</a></li>
-                <li><a href="billboard">榜单</a></li>
-            </ul>
-		</div>
-        <div class="col-lg-3" style="margin-top:10px">
-            <form class="navbar-form navbar-left" role="search" action="">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="电影/影院/榜单" height="35" width="100">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid" style="height: 70px">
+        <div class="header_main">
+            <div class="navbar-header">
+                <div class="YYLogo" onclick="location.href='/home/';">
+                    <img class="YYLogo1" src="../img/index/u3.png" alt="logo">
+                    <img class="YYLogo2" id="logo" src="../img/index/u5.png" alt="logo"
+                    >
                 </div>
-                <button type="submit" class="btn btn-default"></button>
-            </form>
+            </div>
+            <div class="header_list">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="movie">电影</a></li>
+                    <li><a href="cinema">影院</a></li>
+                    <li><a href="billboard">榜单</a></li>
+                </ul>
+            </div>
+            <div class="header_search">
+                <form class="navbar-form navbar-left" role="search" action="">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="电影/影院/榜单" height="35" width="100">
+                    </div>
+                    <button id="search" type="button" class="btn btn-default"></button>
+                </form>
+            </div>
+            <div class="header_button">
+                <button type="button" class="btn btn-default" onclick="location.href='/home/login';">
+                    <span class="glyphicon glyphicon-user"></span>&nbsp登录
+                </button>
+            </div>
         </div>
-        <div class="col-lg-1" style="text-align:center; margin-top: 18px">   
-        	<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-user"></span>登录</button>
-        </div>
-        </div>
-	</nav>
     </div>
+	</div>
+	<div style="margin:50px auto;width: 1280px">
     <div id="myCarousel" class="carousel side" style="margin-top: 70px">
     	<ol class="carousel-indicators">
     		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -794,6 +798,7 @@
             </div>
         </div>
     </div>    
+    </div>
     </div>
     </div>
 </body>
