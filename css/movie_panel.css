@@ -1,0 +1,26 @@
+@charset "utf-8";
+.movies-panel {
+	margin-top: 360px;
+	margin-left: 140px;
+	position: absolute;
+	}
+.sort{
+	height: 30px;	
+	}
+.radioinline {
+	padding: 10px;	
+	font-size: 15px;
+	color: #666;
+	}
+.panel-body {
+	margin-top: -10px;	
+	}
+.poster-default {
+	width: 180px;
+	height: 249px;
+	}
+.movie-info {
+	font-size: 18px;
+	text-decoration: none;
+	}
+S
