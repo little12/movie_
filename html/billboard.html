@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/header.css">
+<link rel="stylesheet" href="../css/movie_header.css">
+<link rel="stylesheet" href="../css/board.css">
+<script src="../bootstrap-3.3.7-dist/js/jquery-3.2.1.min.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<title>榜单</title>
+</head>
+
+<body>
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid" style="height: 70px">
+        <div class="header_main">
+            <div class="navbar-header">
+                <div class="YYLogo" onclick="location.href='/home/';">
+                    <img class="YYLogo1" src="../img/index/u3.png" alt="logo">
+                    <img class="YYLogo2" id="logo" src="../img/index/u5.png" alt="logo"
+                    >
+                </div>
+            </div>
+            <div class="header_list">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="movie.html">电影</a></li>
+                    <li><a href="cinema.html">影院</a></li>
+                    <li class="active"><a href="billboard.html">榜单</a></li>
+                </ul>
+            </div>
+            <div class="header_search">
+                <form class="navbar-form navbar-left" role="search" action="">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="电影/影院/榜单" height="35" width="100">
+                    </div>
+                    <button id="search" type="button" class="btn btn-default"></button>
+                </form>
+            </div>
+            <div class="header_button">
+                <button type="button" class="btn btn-default" onclick="location.href='/home/login';">
+                    <span class="glyphicon glyphicon-user"></span>&nbsp登录
+                </button>
+            </div>
+        </div>
+    </div>
+	</div>
+    <div class="header-placeholder">
+    	<div class="subnav">
+        	 <ul class="subnav-list" id="a">
+             	<li class="subnav-item"><a class="actived" href="movie.html">国内票房榜</a></li>
+                <li class="subnav-item"><a class="list-link" href="movie2.html">TOP100榜</a></li>
+             </ul>
+        </div>    	
+   	</div>
+    <div style="margin:50px auto;width: 1280px">
+    	<div class="board">
+        	<ul class="list-group">
+            	<li class="list-group-item">
+                	<i class="board-index">1</i>
+                    <a href="" title="雪豹" class="image-link" data-act="" data-val=""><img src="../img/movie/黑豹.jpg" class="poster-default">
+                    </a>
+                    <div class="board-main">
+                    </div>
+                </li>
+            <ul>
+        </div>
+    </div>
+</body>
+</html>
