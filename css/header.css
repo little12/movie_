@@ -17,7 +17,9 @@
     position: relative;
     overflow: hidden;
 }
-
+.header_list a{
+	height: 67px;	
+	}
 .YYLogo {
     cursor: pointer;
     width: 150px;
@@ -63,6 +65,9 @@
 }
 .textcolor_bule {
 	color: #09F;	
+	}
+.textcolot_white {
+	color: #FFF;	
 	}
 .carousel-inner {
 	width: 1280px;
@@ -133,4 +138,10 @@
 	margin-top:30px;
 	margin-left: 10px;	
 	}
-`
+.actived {
+	color: #C33;	
+	}
+a {
+	color: #666;
+	text-decoration: none;
+}

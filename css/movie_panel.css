@@ -19,8 +19,14 @@
 	width: 180px;
 	height: 249px;
 	}
-.movie-info {
-	font-size: 18px;
-	text-decoration: none;
+.movie-item a{
+	text-decoration: none;	
 	}
-S
+.movie-info {
+	margin-top: 10px;
+	font-size: 18px;
+	text-align: center;
+	}
+.movies-page {
+	margin-left: 350px; 	
+	}
