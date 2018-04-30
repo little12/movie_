@@ -1,0 +1,67 @@
+@charset "utf-8";
+.board {
+	margin-top: 150px;
+	margin-left: 150px;
+	position:absolute;	
+	}
+.board-item {
+	height: 150px;
+	}
+.board-index {
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin-top: 100px;
+	padding-top: 10px;
+	background-color: #D4D4D4;
+	font-size: 24px;
+	font-weight: bold;
+	color: #666;
+	text-align: center;
+	}
+.board-index-1{
+	background-color: #F00;
+	color: #FFF;			
+	}
+.board-index-2 {
+	color: #FFF;
+	background-color: #FC3;	
+	}
+.board-index-3 {
+	color: #FFF;
+	background-color: #FC3;	
+	}
+.board-img {
+	width: 144px;
+	height: 200px;
+	display: block;
+	margin-left: 80px;
+	margin-top: -130px;
+	}		
+.board-content {
+	width: 650px;
+	height: 150px;
+	margin-left: 270px;
+	margin-top: -150px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	border-bottom-width: thin;
+	}
+.movie-info { 
+	width: 300px;
+}
+.name {
+	font-size:28px;	
+	}
+.movie-item-number {
+	margin-top: -90px;
+	margin-right: ;
+	float: right;	
+	}
+.realtime {
+	font-size: 20px;	
+	color: #F00;
+	}
+.total-boxoffice{
+	color:#999;	
+	}
