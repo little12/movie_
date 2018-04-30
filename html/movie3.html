@@ -1,0 +1,488 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/header.css">
+<link rel="stylesheet" href="../css/movie_header.css">
+<link rel="stylesheet" href="../css/movie_panel.css">
+<script src="../bootstrap-3.3.7-dist/js/jquery-3.2.1.min.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<!-- 
+<script src="../js/bootstrap.custom.js"></script>
+<script src="../js/pager.js"></script> -->
+<title>电影</title>
+</head>
+
+<body>
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid" style="height: 70px">
+        <div class="header_main">
+            <div class="navbar-header">
+                <div class="YYLogo" onclick="location.href='/home/';">
+                    <img class="YYLogo1" src="../img/index/u3.png" alt="logo">
+                    <img class="YYLogo2" id="logo" src="../img/index/u5.png" alt="logo"
+                    >
+                </div>
+            </div>
+            <div class="header_list">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">首页</a></li>
+                    <li class="active"><a href="movie.html" style="height: 67px">电影</a></li>
+                    <li><a href="cinema.html">影院</a></li>
+                    <li><a href="billboard.html">榜单</a></li>
+                </ul>
+            </div>
+            <div class="header_search">
+                <form class="navbar-form navbar-left" role="search" action="">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="电影/影院/榜单" height="35" width="100">
+                    </div>
+                    <button id="search" type="button" class="btn btn-default"></button>
+                </form>
+            </div>
+            <div class="header_button">
+                <button type="button" class="btn btn-default" onclick="location.href='/home/login';">
+                    <span class="glyphicon glyphicon-user"></span>&nbsp登录
+                </button>
+            </div>
+        </div>
+    </div>
+	</div>
+    <div class="header-placeholder">
+    	<div class="subnav">
+        	 <ul class="subnav-list" id="a">
+             	<li class="subnav-item"><a class="list-link" href="movie.html">正在热映</span></li>
+                <li class="subnav-item"><a class="list-link" href="movie2.html">即将上映</a></li>
+                <li class="subnav-item"><a class="actived" href="movie3.html">经典影片</a></li>
+             </ul>
+        </div>    	
+   	</div>
+    <div style="margin:50px auto;width: 1280px">
+    	<div class="movie-channel">
+        	<div class="tags-panel">
+            	<ul class="tags-lines">
+                	<li class="tags-line">
+                		<div class="tags-title">类型：</div>
+                    	<ul class="tags">
+                        	<li class="tags-item"><a class="actived" href="" >全部</a></li>
+                            <li class="tags-item"><a href="#">爱情</a></li>
+                            <li class="tags-item"><a href="">喜剧</a></li>
+                            <li class="tags-item"><a href="">动画</a></li>
+                            <li class="tags-item"><a href="">剧情</a></li>
+                            <li class="tags-item"><a href="">恐怖</a></li>
+                            <li class="tags-item"><a href="">惊悚</a></li>
+                            <li class="tags-item"><a href="">科幻</a></li>
+                            <li class="tags-item"><a href="">动作</a></li>
+                            <li class="tags-item"><a href="">悬疑</a></li>
+                            <li class="tags-item"><a href="">犯罪</a></li>
+                            <li class="tags-item"><a href="">冒险</a></li>
+                            <li class="tags-item"><a href="">战争</a></li>
+                            <li class="tags-item"><a href="">奇幻</a></li>
+                            <li class="tags-item"><a href="">运动</a></li>
+                            <li class="tags-item"><a href="">家庭</a></li>
+                            <li class="tags-item"><a href="">古装</a></li>
+                            <li class="tags-item"><a href="">武侠</a></li>
+                            <li class="tags-item"><a href="">西部</a></li>
+                            <li class="tags-item"><a href="">历史</a></li>
+                            <li class="tags-item"><a href="">传记</a></li>
+                            <li class="tags-item"><a href="">情色</a></li>
+                            <li class="tags-item"><a href="">歌舞</a></li>
+                            <li class="tags-item"><a href="">短片</a></li>
+                            <li class="tags-item" style="width: 60px;"><a href="">纪录片</a></li>
+                            <li class="tags-item" style="width: 70px;"><a href="">黑色电影</a></li>
+                            <li class="tags-item"><a href="">其他</a></li>
+                        </ul>
+                	</li>
+                	<li class="tags-line">
+                		<div class="tags-title">区域：</div>
+                    	<ul class="tags">
+                        	<li class="tags-item"><a class="actived" href="" >全部</a></li>
+                            <li class="tags-item"><a href="">中国</a></li>
+                            <li class="tags-item"><a href="">美国</a></li>
+                            <li class="tags-item"><a href="">日本</a></li>
+                            <li class="tags-item"><a href="">韩国</a></li>
+                            <li class="tags-item" style="width: 70px;"><a href="" >中国香港</a></li>
+                            <li class="tags-item" style="width: 70px;"><a href="" >中国台湾</a></li>
+                            <li class="tags-item"><a href="">泰国</a></li>
+                            <li class="tags-item"><a href="">印度</a></li>
+                            <li class="tags-item"><a href="">法国</a></li>
+                            <li class="tags-item"><a href="">英国</a></li>
+                            <li class="tags-item" style="width: 60px;"><a href="">俄罗斯</a></li>
+                            <li class="tags-item" style="width: 60px;"><a href="">意大利</a></li>
+                            <li class="tags-item" style="width: 60px;"><a href="">西班牙</a></li>
+                            <li class="tags-item"><a href="">德国</a></li>
+                            <li class="tags-item"><a href="">波兰</a></li>
+                            <li class="tags-item" style="width: 70px;"><a href="">澳大利亚</a></li>
+                            <li class="tags-item"><a href="">伊朗</a></li>
+                            <li class="tags-item"><a href="">其他</a></li>
+                        </ul>
+                	</li>
+               	    <li class="tags-line">
+                		<div class="tags-title">年代：</div>
+                        <ul class="tags">
+                        	<li class="tags-item"><a class="actived" href="">全部</a></li>
+                            <li class="tags-item" style="width: 80px;"><a href="">2018以后</a></li>
+                            <li class="tags-item"><a href="">2018</a></li>
+                            <li class="tags-item"><a href="">2017</a></li>
+                            <li class="tags-item"><a href="">2016</a></li>
+                            <li class="tags-item"><a href="">2015</a></li>
+                            <li class="tags-item"><a href="">2014</a></li>
+                            <li class="tags-item"><a href="">2013</a></li>
+                            <li class="tags-item"><a href="">2012</a></li>
+                            <li class="tags-item"><a href="">2011</a></li>
+                            <li class="tags-item" style="width: 90px;"><a href="">2000-2010</a></li>
+                            <li class="tags-item" style="width: 70px;"><a href="">90年代</a></li>
+                            <li class="tags-item" style="width: 70px;"><a href="">80年代</a></li>
+                            <li class="tags-item" style="width: 70px;"><a href="">70年代</a></li>
+                            <li class="tags-item"><a href="">更早</a></li>
+                     	</ul>
+                	</li>
+            	</ul>
+            </div>
+            <div class="movies-panel">
+            	<div class="sorts">
+                 	<label class="radioinline">
+                        <input name="optionsRadios" type="radio" value="option1" id="optionsRadio1" checked="checked" onclick="location.href='movie.html';">按热门排序
+                    </label>
+                    <label class="radioinline">
+                        <input name="optionsRadios" type="radio" value="option2" id="optionsRadio2" onclick="location.href=' ';">按时间排序
+                    </label>
+                    <label class="radioinline">
+                        <input name="optionsRadios" type="radio" value="option3" id="optionsRadio3" onclick="location.href=' ';">按评分排序
+                    </label>
+                </div>
+                <div class="panel-body" style="width: 1000px;">
+                    <ul class="list-group list-unstyled list-inline">
+                        <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg" >
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg" >
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg" >
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg" >
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg">
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg">
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg">
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg">
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                         <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg" >
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg" >
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                         <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg" >
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg" >
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg" >
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg" >
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg">
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg">
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg">
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg">
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                         <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg" >
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="movie-item">
+                                <a href="#" target="_blank" data-act="playingMovie-click" data-val=" ">
+                                <div class="movie-poster" title="黑豹">
+                                    <img class="poster-default" src="../img/movie/黑豹.jpg" >
+                                    <div class="movie-overlay">
+                                        <div class="movie-info">
+                                            <div class="movie-title movie-title-padding" title="黑豹">黑豹</div>
+                                            <div class="movie-score"><i class="integer">9.</i><i class="fraction">0</i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="movies-page" id="pagearea">
+                    <ul class="pagination">
+                    	<li><a href="#">&laquo;</a></li>
+                        <li class="active"><a href="movie.html">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">&raquo;</a></li>
+                    </ul>
+                </div>
+                <!--
+                 <script type="text/javascript">
+					$(function(){
+						$(".pagination").createPage({
+							totalPage:50,
+							currPage:1,
+							turndown:'true',
+							backFn:function(p){
+								console.log("回调函数："+p);
+							}
+						});
+					})
+				</script>
+                -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
