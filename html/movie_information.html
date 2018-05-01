@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/header.css">
+<link rel="stylesheet" href="../css/movie_information.css">
+<script src="../bootstrap-3.3.7-dist/js/jquery-3.2.1.min.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<title>圆圆电影</title>
+</head>
+
+<body>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid" style="height: 70px">
+        <div class="header_main">
+            <div class="navbar-header">
+                <div class="YYLogo" onclick="location.href='/home/';">
+                    <img class="YYLogo1" src="../img/index/u3.png" alt="logo">
+                    <img class="YYLogo2" id="logo" src="../img/index/u5.png" alt="logo"
+                    >
+                </div>
+            </div>
+            <div class="header_list">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="movie.html">电影</a></li>
+                    <li><a href="cinema.html">影院</a></li>
+                    <li><a href="billboard.html">榜单</a></li>
+                </ul>
+            </div>
+            <div class="header_search">
+                <form class="navbar-form navbar-left" role="search" action="">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="电影/影院/榜单" height="35" width="100">
+                    </div>
+                    <button id="search" type="button" class="btn btn-default"></button>
+                </form>
+            </div>
+            <div class="header_button">
+                <button type="button" class="btn btn-default" onclick="location.href='/home/login';">
+                    <span class="glyphicon glyphicon-user"></span>&nbsp登录
+                </button>
+            </div>
+        </div>
+    </div>
+	</div>
+	<div class="header-placeholder">
+    	<div class="banner">
+        	<div class="wrapper">
+            	<div class="celeInfo-left">
+                	<div class="avatar-shadow">
+                    	<img class="avatar" src="../img/movie_information/最后的我们.jpg" alt="后来的我们">
+                        <div class="movie-ver"></div>
+                    </div>
+                </div>
+                <div class="celeInfo-right">
+                	<div class="movie-container">
+                    	<h3 class="name">后来的我们</h3>
+                        <div class="ename ellipsis">Us and Them</div>
+                        <ul>
+                        	<li class="ellipsis">剧情，爱情</li>
+                        	<li class="ellipsis">中国大陆，中国台湾/120分钟</li>
+                        	<li class="ellipsis">2018-04-28 08:00大陆上映</li>
+                        </ul>
+                    </div>
+                    <div class="action-buyBtn">
+                    	<div class="action">
+                        	<a class="wish" href="">
+                            	<div class="wish-bg">
+                                	<i class="glyphicon glyphicon-heart"></i>
+                                    <span class="wish-msg" data-act="wish-click">想看</span>
+                                </div>
+                            </a>
+                            <a class="score-btn" href="">
+                            	<div>
+                                	<i class="glyphicon  glyphicon-star"></i>
+                                    <span class="score-btn-msg" data-act="comment-open-click">想看</span>
+                                </div>
+                            </a>
+                        </div>
+                        <button type="button" class="btn btn-default" onclick="location.href=' ;">特惠购票</button>
+                    </div>
+                    <div class="movie-stats-container">
+                    	<div class="movie-index">
+                        	<p class="movie-index-title">用户评分</p>
+                            <span class="movie-index-score">8.2</span>
+                        </div>
+                        <div class="movie-index">
+                        	<p class="movie-index-title">累计票房</p>
+                            <span class="movie-index-score">...</span><span>亿</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    	</div>
+    </div>
+    
+    <div style="margin:50px auto;width: 1280px">
+    	
+    </div>
+</body>
+</html>
