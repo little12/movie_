@@ -1,16 +1,18 @@
 @charset "utf-8";
 .header-placeholder {
 	height: 60px;
-	width: 1349px;
+	width: 100%;
 	margin-top: 25px;
 	background-color: #333;	
 	position: absolute;
 }
 .subnav {
-	margin-left: 500px;
+	margin: 0 auto;
+	width: 1280px;
 	color: #FFF;
 }
 .subnav-list {
+	margin-left: 460px;
 	list-style-type: none;
 	font-size: 16px;
 	color: #FFF;
@@ -77,4 +79,10 @@
 	line-height:40px;
 	float: left;
 }
-
+.movies-page {
+	margin: 0 auto;
+	width: 100%;
+	}
+.pagination {
+	margin-left: 350px;	
+	}
