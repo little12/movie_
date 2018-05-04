@@ -21,7 +21,7 @@
 	display: block;
 	width:120px;  
 	height:30px; 
-	text-align:central; 
+	text-align:center;
 	line-height:40px;	
 	float: left; 
 	}
@@ -75,14 +75,14 @@
 	display: block;
 	width: 50px;
 	height: 30px;
-	text-align:central; 
+	text-align:center;
 	line-height:40px;
 	float: left;
 }
 .movies-page {
 	margin: 0 auto;
-	width: 100%;
+	text-align:center;	
 	}
 .pagination {
-	margin-left: 350px;	
+	margin-bottom: 20px;
 	}
