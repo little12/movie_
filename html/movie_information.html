@@ -73,22 +73,22 @@
                                 </div>
                             </a>
                             <a class="score-btn" href="">
-                            	<div>
+                            	<div class="score-msg wish-bg">
                                 	<i class="glyphicon  glyphicon-star"></i>
-                                    <span class="score-btn-msg" data-act="comment-open-click">想看</span>
+                                    <span class="score-btn-msg" data-act="comment-open-click">评分</span>
                                 </div>
                             </a>
                         </div>
-                        <button type="button" class="btn btn-default" onclick="location.href=' ;">特惠购票</button>
+                        <button type="button" class="btn-buy btn btn-danger" onclick="location.href=' ;">特惠购票</button>
                     </div>
                     <div class="movie-stats-container">
                     	<div class="movie-index">
                         	<p class="movie-index-title">用户评分</p>
-                            <span class="movie-index-score">8.2</span>
+                            <span class="movie-index-score textcolor_orange">8.2</span>
                         </div>
                         <div class="movie-index">
                         	<p class="movie-index-title">累计票房</p>
-                            <span class="movie-index-score">...</span><span>亿</span>
+                            <span class="movie-index-money">10.69</span><span class="unit">亿</span>
                         </div>
                     </div>
                 </div>
@@ -96,8 +96,254 @@
     	</div>
     </div>
     
-    <div style="margin:50px auto;width: 1280px">
-    	
+    <div class="main-container">
+    	<div class="information-container">
+        	<div class="tab-title-container">
+            	<ul id="myTab" class="nav nav-tabs">
+                	<li class="active"><a href="#introduction" data-toggle="tab">介绍</a></li>
+                    <li><a href="#actors" data-toggle="tab">演职人员</a></li>
+                    <li><a href="#premovies" data-toggle="tab">影片（预告片）</a></li>
+                </ul>
+            </div>
+            <div id="myTabContent" class="tab-container tab-content">
+            	<div class="tab-pane fade in active" id="introduction">
+                	<div class="module">
+                    	<div class="mod-title"><h4>剧情简介</h4></div>
+                        <div class="mod-content text-justify">
+                        	<span class="dra">这是一个爱情故事，关于一对异乡漂泊的年轻人。十年前，林见清（井柏然 饰）和方小晓（周冬雨 饰）偶然地相识在归乡过年的火车上。两人怀揣着共同的梦想，一起在北京打拼，并开始了一段相聚相离的情感之路。十年后，见清和小晓在飞机上再次偶然重逢……命运似乎是一个轮回。在一次次的偶然下,平行线交叉，再平行，故事始终有“然后”。可后来的他们，学会如何去爱了吗？</span>
+                        </div>
+                    </div>
+                    <div class="module">
+                        <div class="mod-title">
+                            <h4>演职人员</h4>
+                            <a class="more" href="#actors" data-toggle="tab" title="查看全部演职人员">全部>></a>
+                        </div>
+                        <div class="mod-content">
+                            <div class="celebrity-container clearfix">
+                                <div class="celebrity-group">
+                                    <div class="celebrity-type">导演</div>
+                                        <ul class="celebrity-list list-group list-unstyled list-inline">
+                                            <li class="list-group-item">
+                                                <img class="img-actor" src="../img/movie_information/liu.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">刘若英</span>
+                                                </div>	
+                                            </li>
+                                        </ul>  
+                                </div>
+                                <div class="celebrity-group2">
+                                    <div class="celebrity-type">演员</div>
+                                    <ul class="celebrity-list list-group list-unstyled list-inline">
+                                        <li class="list-group-item">
+                                            <div class="celebrity-item">
+                                                <img class="img-actor" src="../img/movie_information/jin.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">井柏然</span></br>
+                                                    <span class="role">饰：林见清</span>
+                                                </div>
+                                            </div>	
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="celebrity-item">
+                                                <img class="img-actor" src="../img/movie_information/zhou.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">周冬雨</span></br>
+                                                    <span class="role">饰：方小晓</span>
+                                                </div>	
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="celebrity-item">
+                                                <img class="img-actor" src="../img/movie_information/tian.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">田壮壮</span></br>
+                                                    <span class="role">饰：林父</span>
+                                                </div>	
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="celebrity-item">
+                                                <img class="img-actor" src="../img/movie_information/l.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">苏小明</span></br>
+                                                    <span class="role">--</span>
+                                                </div>	
+                                            </div>
+                                        </li>
+                                    </ul>  
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="actors">
+                    <div class="module">
+                        <div class="mod-content">
+                            <div class="celebrity-container">
+                                <div class="celebrity-group">
+                                    <div class="celebrity-type">导演</div>
+                                    <ul class="celebrity-list list-group list-unstyled list-inline">
+                                        <div class="celebrity-item">
+                                            <li class="list-group-item">
+                                                <img class="img-actor" src="../img/movie_information/liu.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">刘若英</span>
+                                                </div>	
+                                            </li>
+                                        </div>
+                                    </ul>  
+                                </div>
+                                <div class="celebrity-group">
+                                    <div class="celebrity-type">演员</div>
+                                    <ul class="celebrity-list list-group list-unstyled list-inline">
+                                        <li class="list-group-item">
+                                            <div class="celebrity-item">
+                                                <img class="img-actor" src="../img/movie_information/jin.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">井柏然</span></br>
+                                                    <span class="role">饰：林见清</span>
+                                                </div>
+                                            </div>	
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="celebrity-item">
+                                                <img class="img-actor" src="../img/movie_information/zhou.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">周冬雨</span></br>
+                                                    <span class="role">饰：方小晓</span>
+                                                </div>	
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="celebrity-item">
+                                                <img class="img-actor" src="../img/movie_information/tian.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">田壮壮</span></br>
+                                                    <span class="role">饰：林父</span>
+                                                </div>	
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="celebrity-item">
+                                                <img class="img-actor" src="../img/movie_information/l.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">苏小明</span></br>
+                                                    <span class="role">--</span>
+                                                </div>	
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                           <div class="celebrity-item">
+                                                <img class="img-actor" src="../img/movie_information/l.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">苏小明</span></br>
+                                                    <span class="role">--</span>
+                                                </div>	
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="celebrity-item">
+                                                <img class="img-actor" src="../img/movie_information/l.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">苏小明</span></br>
+                                                    <span class="role">--</span>
+                                                </div>	
+                                            </div>	
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="celebrity-item">
+                                                <img class="img-actor" src="../img/movie_information/l.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">苏小明</span></br>
+                                                    <span class="role">-- </span>
+                                                </div>	
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="celebrity-item">
+                                                <img class="img-actor" src="../img/movie_information/l.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">苏小明</span></br>
+                                                    <span class="role"> --</span>
+                                                </div>	
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="celebrity-item">
+                                                <img class="img-actor" src="../img/movie_information/l.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">苏小明</span></br>
+                                                    <span class="role">--</span>
+                                                </div>	
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="celebrity-item">
+                                                <img class="img-actor" src="../img/movie_information/l.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">苏小明</span></br>
+                                                    <span class="role">--</span>
+                                                </div>	
+                                            </div>
+                                        </li>
+                                    </ul>  
+                                </div>
+                               	<div class="celebrity-group">
+                                    <div class="celebrity-type">编剧</div>
+                                    <ul class="celebrity-list list-group list-unstyled list-inline">
+                                        <li class="list-group-item">
+                                            <div class="celebrity-item">
+                                                <img class="img-actor" src="../img/movie_information/liu.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">刘若英</span>
+                                                </div>	
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="celebrity-item">
+                                                <img class="img-actor" src="../img/movie_information/yuan.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">袁源</span>
+                                                </div>	
+                                            </div>
+                                        </li>
+                                    </ul>  
+                                </div>
+                                <div class="celebrity-group">
+                                    <div class="celebrity-type">制片人</div>
+                                    <ul class="celebrity-list list-group list-unstyled list-inline">
+                                        <li class="list-group-item">
+                                            <div class="celebrity-item">
+                                                <img class="img-actor" src="../img/movie_information/liu.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">刘若英</span>
+                                                </div>	
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="celebrity-item">
+                                                <img class="img-actor" src="../img/movie_information/yuan.jpg" alt="">	
+                                                <div class="info">
+                                                    <span class="celebrity-name">袁源</span>
+                                                </div>	
+                                            </div>
+                                        </li>
+                                    </ul>  
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="premovies">
+                	<div class="module">
+                    	<div class="mod-title"><h4>影片</h4></div>
+                        <div class="mod-content">
+                        	<embed src="http://player.youku.com/player.php/sid/XMzI2NTc4NTMy/v.swf" width="480" height="400" type="application/x-shockwave-flash"> </embed>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>	
     </div>
 </body>
 </html>

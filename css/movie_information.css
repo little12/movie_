@@ -35,7 +35,8 @@
 	margin-left: 470px;	
 	}
 .movie-container {
-	height: 170px;	
+	height: 170px;
+	width: 300px;	
 	}
 .name {
 	font-size: 28px;
@@ -53,14 +54,130 @@
 	margin-bottom: 10px;
 	font-size: 20px;	
 	}
+.action-buyBtn {
+	height: 100px;	
+	width: 300px;
+	}
+.score-msg {
+	margin-top: -40px;
+	margin-left: 140px;	
+	}
 
 .wish-bg {
-	width: 150px;
+	width: 120px;
 	height: 40px;
-	background-color: #E9E9E9;
+	background-color: #FFF;
 	text-align: center;
-	font-size: 16px;
+	font-size: 14px;
 	padding-top: 10px;	
-	color: #666;
-	filter:alpha(Opacity=80);-moz-opacity:0.7;opacity: 0.7;	
+	background:rgba(0,0,0,0.2);
+	filter:alpha(Opacity=20);	
+	}
+.wish-bg i {
+	color: #FFF;	
+	position: relative;	
+	}
+.wish-bg span {
+	color: #FFF;
+	position: relative;	
+	}
+.btn-buy {
+	margin-top: 10px;
+	width: 260px;
+	height: 40px;
+	font-size: 14px;
+	letter-spacing: 5px;
+	}
+.movie-stats-container {
+	width: 400px;
+	margin-top: -130px;
+	float: right;	
+	}
+.movie-index {
+	color: #FFF;
+	font-size: 14px;	
+	}
+.movie-index-score {
+	display: block;
+	margin-top: -10px;
+	font-size: 30px;	
+	}
+.movie-index-money {
+	display: block;
+	margin-top: -10px;
+	width: 40px;
+	font-size: 30px;	
+	}
+.unit {
+	display: block;
+	margin-top: -29px;
+	margin-left: 80px;
+	}
+
+/*介绍，演员，预告片*/
+.main-container {
+	width: 100%;
+	margin-top: 450px;
+	position: absolute;	
+	}
+.information-container {
+	margin: 50px auto;
+	width: 1280px;
+	}
+.tab-title-container {
+	margin-left: 50px;
+	width: 400px;
+	font-size: 18px;	
+	}
+.tab-title-container a:hover {
+	color: #C00;
+	}
+.tab-container {
+	margin-left: 50px;	
+	}
+.module {
+	margin-top: 40px;
+	width: 750px;	
+	}
+.mod-title {
+	height: 20px;
+	padding-left: 5px;
+	border-left-width: thick;
+	border-left-style: solid;
+	border-left-color: #C00;
+	}
+.mod-content {
+	margin-top: 20px;
+	text-align: justify;
+	line-height: 25px;	
+	}
+.more {
+	margin-top: -25px;
+	font-size: 16px;
+	float: right;	
+	}
+.celebrity-type {
+	font-size: 16px;
+	height: 40px;	
+	}
+.celebrity-list {
+	list-style-type: none;	
+	}
+.celebrity-group2 {
+	margin-left: 150px;
+	margin-top: -285px;	
+	}
+.celebrity-item {
+	width: 137px;
+	height: 200px;	
+	}
+.img-actor {
+	width: 130px;
+	height:179px;
+	}
+.info {
+	text-align: center;
+	}
+.celebrity-name {
+	font-size: 16px;	
 	}
